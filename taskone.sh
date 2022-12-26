@@ -77,7 +77,7 @@ for file in "$@"; do
   fi
 
   # rename the file
-  mv "$file" "$new_filename"
+  mv -- "$file" "$new_filename"
 
   
   if [[ $? -ne 0 ]]; then
