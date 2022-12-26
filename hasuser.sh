@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Set default file to /etc/passwd
+ # Set default file to /etc/passwd
 file="/etc/passwd"
 
 # Parse command line arguments
