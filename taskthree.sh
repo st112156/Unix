@@ -45,6 +45,7 @@ fi
 files=$(find "$dir" -type f -size +"$minsize"c)
 if [ -n "$files" ]; then
     if [ "$human" -eq 1 ]; then
+    
         # Print file sizes in human-readable format
         files=$(du -h "$files" | sort -hr | head -n "$N")
         while read -r size path; do
